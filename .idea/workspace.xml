@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f04fd78d-174a-4439-9af0-01d2a84eceb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/constants/constants.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/constants/styles.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/icon_content.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/reusable_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widgets/round_icon_button.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/a699327fadaa012ccc148a557c61128a/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/a699327fadaa012ccc148a557c61128a/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/a699327fadaa012ccc148a557c61128a/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/a699327fadaa012ccc148a557c61128a/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/a699327fadaa012ccc148a557c61128a/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/a699327fadaa012ccc148a557c61128a/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
@@ -34,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/styles.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/input_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,22 +102,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1678" height="382" key="GridCell.Tab.0.bottom" timestamp="1621088235929">
+    <state width="1678" height="382" key="GridCell.Tab.0.bottom" timestamp="1621232977220">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.bottom/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621088235929" />
-    <state width="1678" height="382" key="GridCell.Tab.0.center" timestamp="1621088235928">
+    <state width="1678" height="382" key="GridCell.Tab.0.bottom/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621232977220" />
+    <state width="1678" height="382" key="GridCell.Tab.0.center" timestamp="1621232977219">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.center/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621088235928" />
-    <state width="1678" height="382" key="GridCell.Tab.0.left" timestamp="1621088235927">
+    <state width="1678" height="382" key="GridCell.Tab.0.center/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621232977219" />
+    <state width="1678" height="382" key="GridCell.Tab.0.left" timestamp="1621232977216">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.left/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621088235927" />
-    <state width="1678" height="382" key="GridCell.Tab.0.right" timestamp="1621088235928">
+    <state width="1678" height="382" key="GridCell.Tab.0.left/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621232977216" />
+    <state width="1678" height="382" key="GridCell.Tab.0.right" timestamp="1621232977219">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.right/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621088235928" />
+    <state width="1678" height="382" key="GridCell.Tab.0.right/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621232977219" />
     <state x="361" y="332" key="SettingsEditor" timestamp="1620996954489">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
