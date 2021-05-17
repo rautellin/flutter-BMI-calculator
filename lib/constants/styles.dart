@@ -10,27 +10,27 @@ const TextStyle numberStyle = TextStyle(
   fontWeight: FontWeight.w900,
 );
 
-const titleTextStyle = TextStyle(
+const TextStyle titleTextStyle = TextStyle(
   fontSize: 50.0,
   fontWeight: FontWeight.bold,
 );
 
-const resultTextStyle = TextStyle(
+const TextStyle resultTextStyle = TextStyle(
   color: Color(0xFF24D876),
   fontSize: 22.0,
   fontWeight: FontWeight.bold,
 );
 
-const BMITextStyle = TextStyle(
+const TextStyle BMITextStyle = TextStyle(
   fontSize: 100.0,
   fontWeight: FontWeight.bold,
 );
 
-const bodyTextStyle = TextStyle(
+const TextStyle bodyTextStyle = TextStyle(
   fontSize: 22.0,
 );
 
-const bottomTextStyle = TextStyle(
+const TextStyle bottomTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
   fontSize: 20.0,
 );
@@ -38,8 +38,8 @@ const bottomTextStyle = TextStyle(
 const Color bottomBarColor = Color(0xFFFF0065);
 const Color activeCardColor = Color(0xFF282B4E);
 const Color inactiveCardColor = Color(0x4D282B4E);
-const activeSliderColor = Color(0xFFEB1555);
-const activeSliderColorTransparent = Color(0x68EB1555);
-const inactiveSliderColor = Color(0xFF8D8E98);
+const Color activeSliderColor = Color(0xFFEB1555);
+const Color activeSliderColorTransparent = Color(0x68EB1555);
+const Color inactiveSliderColor = Color(0xFF8D8E98);
 
 const double bottomBarHeight = 80.0;

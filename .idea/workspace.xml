@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f04fd78d-174a-4439-9af0-01d2a84eceb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/constants/styles.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/results_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/bottom_button.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/constants/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/constants.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/input_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/icon_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/icon_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/styles.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,22 +91,22 @@
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
     <state x="548" y="502" key="#com.intellij.fileTypes.FileTypeChooser/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621283298701" />
-    <state width="1678" height="178" key="GridCell.Tab.0.bottom" timestamp="1621267352444">
+    <state width="1946" height="178" key="GridCell.Tab.0.bottom" timestamp="1621285295297">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="178" key="GridCell.Tab.0.bottom/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621267352444" />
-    <state width="1678" height="178" key="GridCell.Tab.0.center" timestamp="1621267352444">
+    <state width="1946" height="178" key="GridCell.Tab.0.bottom/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621285295297" />
+    <state width="1946" height="178" key="GridCell.Tab.0.center" timestamp="1621285295296">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="178" key="GridCell.Tab.0.center/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621267352444" />
-    <state width="1678" height="178" key="GridCell.Tab.0.left" timestamp="1621267352443">
+    <state width="1946" height="178" key="GridCell.Tab.0.center/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621285295296" />
+    <state width="1946" height="178" key="GridCell.Tab.0.left" timestamp="1621285295296">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="178" key="GridCell.Tab.0.left/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621267352443" />
-    <state width="1678" height="178" key="GridCell.Tab.0.right" timestamp="1621267352444">
+    <state width="1946" height="178" key="GridCell.Tab.0.left/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621285295296" />
+    <state width="1946" height="178" key="GridCell.Tab.0.right" timestamp="1621285295297">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="178" key="GridCell.Tab.0.right/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621267352444" />
+    <state width="1946" height="178" key="GridCell.Tab.0.right/3440.1123.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1621285295297" />
     <state x="361" y="332" key="SettingsEditor" timestamp="1620996954489">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
