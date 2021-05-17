@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'widgets/icon_content.dart';
-import 'widgets/reusable_card.dart';
-import 'widgets/round_icon_button.dart';
-import 'constants/constants.dart' as Constants;
+import '../widgets/icon_content.dart';
+import '../widgets/reusable_card.dart';
+import '../widgets/round_icon_button.dart';
+import '../widgets/bottom_button.dart';
+import 'results_screen.dart';
+import '../constants/constants.dart' as Constants;
+import '../constants/styles.dart' as Styles;
+import '../bmi_data.dart';
 
 enum Gender { male, female }
 
@@ -40,8 +44,8 @@ class _InputPageState extends State<InputPage> {
                       });
                     },
                     color: selectedGender == Gender.male
-                        ? Constants.activeCardColor
-                        : Constants.inactiveCardColor,
+                        ? Styles.activeCardColor
+                        : Styles.inactiveCardColor,
                     child: IconContent(
                       icon: FontAwesomeIcons.mars,
                       text: 'MALE',
@@ -58,8 +62,8 @@ class _InputPageState extends State<InputPage> {
                       });
                     },
                     color: selectedGender == Gender.female
-                        ? Constants.activeCardColor
-                        : Constants.inactiveCardColor,
+                        ? Styles.activeCardColor
+                        : Styles.inactiveCardColor,
                     child: IconContent(
                       icon: FontAwesomeIcons.venus,
                       text: 'FEMALE',
@@ -71,32 +75,32 @@ class _InputPageState extends State<InputPage> {
           ),
           Expanded(
             child: ReusableCard(
-              color: Constants.activeCardColor,
+              color: Styles.activeCardColor,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     'HEIGHT',
-                    style: Constants.textStyle,
+                    style: Styles.textStyle,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.baseline,
                     textBaseline: TextBaseline.alphabetic,
                     children: [
-                      Text(height.toString(), style: Constants.numberStyle),
+                      Text(height.toString(), style: Styles.numberStyle),
                       Text(
-                        'cm',
-                        style: Constants.textStyle,
+                        ' cm',
+                        style: Styles.textStyle,
                       )
                     ],
                   ),
                   SliderTheme(
                     data: SliderTheme.of(context).copyWith(
-                        inactiveTrackColor: Constants.inactiveSliderColor,
-                        activeTrackColor: Constants.activeSliderColor,
-                        thumbColor: Constants.activeSliderColor,
-                        overlayColor: Constants.activeSliderColorTransparent,
+                        inactiveTrackColor: Styles.inactiveSliderColor,
+                        activeTrackColor: Styles.activeSliderColor,
+                        thumbColor: Styles.activeSliderColor,
+                        overlayColor: Styles.activeSliderColorTransparent,
                         thumbShape:
                             RoundSliderThumbShape(enabledThumbRadius: 15.0),
                         overlayShape:
@@ -120,17 +124,17 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: ReusableCard(
-                    color: Constants.activeCardColor,
+                    color: Styles.activeCardColor,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
                           'WEIGHT',
-                          style: Constants.textStyle,
+                          style: Styles.textStyle,
                         ),
                         Text(
                           weight.toString(),
-                          style: Constants.numberStyle,
+                          style: Styles.numberStyle,
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -162,17 +166,17 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    color: Constants.activeCardColor,
+                    color: Styles.activeCardColor,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
                           'AGE',
-                          style: Constants.textStyle,
+                          style: Styles.textStyle,
                         ),
                         Text(
                           age.toString(),
-                          style: Constants.numberStyle,
+                          style: Styles.numberStyle,
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -205,11 +209,22 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          Container(
-            color: Constants.bottomBarColor,
-            margin: EdgeInsets.only(top: 10.0),
-            width: double.infinity,
-            height: Constants.bottomBarHeight,
+          BottomButton(
+            buttonText: 'CALCULATE',
+            onTapped: () {
+              CalculatorBMI calc =
+                  CalculatorBMI(height: height, weight: weight);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (BuildContext context) => ResultsScreen(
+                    bmiResult: calc.calculateBMI(),
+                    resultText: calc.getResult(),
+                    interpretation: calc.getInterpretation(),
+                  ),
+                ),
+              );
+            },
           )
         ],
       ),

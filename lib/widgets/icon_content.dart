@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../constants/constants.dart' as Constants;
+import '../constants/styles.dart' as Styles;
 
 class IconContent extends StatelessWidget {
   final IconData icon;
@@ -18,7 +18,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           text,
-          style: Constants.textStyle,
+          style: Styles.textStyle,
         )
       ],
     );
